@@ -1,5 +1,9 @@
 package test.dao.generate.entity;
-
+/**
+ * 用户的实体类
+ * @author aohanhe
+ *
+ */
 public class UserInfoEntity {
 	private Long id;   //UserID
 	private String name; //用户名称
