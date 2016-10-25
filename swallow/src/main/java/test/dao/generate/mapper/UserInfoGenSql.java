@@ -6,6 +6,9 @@ package test.dao.generate.mapper;
  *
  */
 public class UserInfoGenSql {
+	protected String SEL_FIELD = " id as id,name as name,mobile as mobile, companyId as companyId, companyName as companyName";
+	protected String SEL_TABLE="";
 	
+		
 
 }

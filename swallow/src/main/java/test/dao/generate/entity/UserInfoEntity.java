@@ -1,10 +1,32 @@
 package test.dao.generate.entity;
 /**
- * 用户的实体类
+ * 用户的实体类 (由代码生成)
  * @author aohanhe
  *
  */
 public class UserInfoEntity {
+	public enum UserInfoEntityKey{
+		id("id"),
+		name("name"),
+		modile("modile"),
+		companyId("companyId"),
+		companyName("companyName")
+		;
+		
+		private final String value;
+		
+		UserInfoEntityKey(String value){
+			this.value = value;
+		}
+		
+		@Override
+		public java.lang.String toString() {
+			return this.value;
+		}
+				
+	}
+	
+	
 	private Long id;   //UserID
 	private String name; //用户名称
 	private String modile; //用户手机
