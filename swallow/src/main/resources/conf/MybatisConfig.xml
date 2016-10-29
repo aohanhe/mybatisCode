@@ -50,7 +50,8 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	
 
 	<mappers>
-		<mapper class="testMybatis.TbAreaMapper" /> 
+		<mapper class="test.dao.generate.mapper.UserInfoGenMapper" />
+		<mapper class="test.dao.mapper.UserInfoMapper" /> 
 		<!--  <mapper resource="testMybatis/test.xml"/>	 -->	
 	</mappers>
 	

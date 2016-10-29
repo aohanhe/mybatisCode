@@ -6,11 +6,11 @@ package test.dao.generate.entity;
  */
 public class UserInfoEntity {
 	public enum UserInfoEntityKey{
-		id("id"),
-		name("name"),
-		modile("modile"),
-		companyId("companyId"),
-		companyName("companyName")
+		id("tbUser.id"),
+		name("tbUser.name"),
+		mobile("tbUser.mobile"),
+		companyId("tbUserCompany.companyId"),
+		companyName("tbUserCompany.companyName")
 		;
 		
 		private final String value;
@@ -29,7 +29,7 @@ public class UserInfoEntity {
 	
 	private Long id;   //UserID
 	private String name; //用户名称
-	private String modile; //用户手机
+	private String mobile; //用户手机
 	private Long companyId; //公司ID
 	private String companyName; //公司名
 	
@@ -55,25 +55,25 @@ public class UserInfoEntity {
 		this.id = id;
 	}
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getModile() {
-		return modile;
+	public String getMobile() {
+		return this.mobile;
 	}
-	public void setModile(String modile) {
-		this.modile = modile;
+	public void setMobile(String modile) {
+		this.mobile = modile;
 	}
 	public Long getCompanyId() {
-		return companyId;
+		return this.companyId;
 	}
 	public void setCompanyId(Long companyId) {
 		this.companyId = companyId;
 	}
 	public String getCompanyName() {
-		return companyName;
+		return this.companyName;
 	}
 	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
